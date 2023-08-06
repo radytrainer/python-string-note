@@ -51,3 +51,39 @@ To access a string we use `[]` sign and `index` of each character starting from 
 - [x] string = "abc" :arrow_right: string.isnumeric() `// False`
 - [x] string = "12" :arrow_right: string.isnumeric() `// True`
 - [x] number = 12 :arrow_right: str(number) `// "12"`
+
+### 6. String concatination
+- [x] string = "A" + "B" `// AB`
+- [x] string = "5" + "6" `// 56`
+- [x] string = 10 + "7" `// TypeError: unsupported operand type(s) for +: 'int' and 'str'`
+- [x] string = 5.6 + "A" `// TypeError: unsupported operand type(s) for +: 'float' and 'str'`
+- [x] string = str(100) + "8" `// 1008`
+
+### 7. String looping
+For loop iteration by default incrementing from `0` it th same index of string
+```
+text = "abc"
+for i in range(len(text)):
+    print(text[i])
+```
+`Output of code above:`
+```
+a
+b
+c
+```
+
+#### Other ways to loop
+```
+text = "abc"
+i = 0
+while i < len(text):
+    print(text[i])
+    i = i + 1
+```
+`Output of code above:`
+```
+a
+b
+c
+```
