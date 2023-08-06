@@ -61,8 +61,7 @@ To access a string we use `[]` sign and `index` of each character starting from 
 
 ### 7. String looping
 For loop iteration by default incrementing from `0` it th same index of string
-```
-python:
+```python:
 text = "abc"
 for i in range(len(text)):
     print(text[i])
@@ -75,8 +74,7 @@ c
 ```
 
 #### Other ways to loop
-```
-python:
+```python:
 text = "abc"
 i = 0
 while i < len(text):
