@@ -61,28 +61,30 @@ To access a string we use `[]` sign and `index` of each character starting from 
 
 ### 7. String looping
 For loop iteration by default incrementing from `0` it th same index of string
-```python:
+```python
+# Python
 text = "abc"
 for i in range(len(text)):
     print(text[i])
 ```
-`Output of code above:`
-```
+```python
+# Output of code above:
 a
 b
 c
 ```
 
 #### Other ways to loop
-```python:
+```python
+# Python
 text = "abc"
 i = 0
 while i < len(text):
     print(text[i])
     i = i + 1
 ```
-`Output of code above:`
-```
+```python
+# Output of code above:
 a
 b
 c
